@@ -11,7 +11,7 @@ This repository contains the implementation of **WHIRL**, a hierarchical algorit
 
 We consider the joint problem:
 
-$\max_{S, R} \;\; F(S) - \alpha \, T(S, R)$
+$\max_{S, R}  F(S) - \alpha \cdot T(S, R)$
 
 - \(S\): allocation of items to agents  
 - \(R\): routing paths in a graph  
@@ -89,12 +89,7 @@ We compare:
 
 We prove the following guarantee:
 
-\[
-f(\bar{S}, \bar{R}) \;\geq\;
-\frac{1}{2} f(S^\star, R^\star)
-\;-\;
-\frac{\alpha}{2} \, \kappa \, \delta \, |\bar{R}^\star|
-\]
+$f(\bar{S}, \bar{R}) \geq \frac{1}{2} f(S^\star, R^\star) \frac{\alpha}{2} \kappa \delta |\bar{R}^\star|$
 
 ### Interpretation
 
