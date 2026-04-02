@@ -11,9 +11,7 @@ This repository contains the implementation of **WHIRL**, a hierarchical algorit
 
 We consider the joint problem:
 
-\[
-\max_{S, R} \;\; F(S) - \alpha \, T(S, R)
-\]
+$\max_{S, R} \;\; F(S) - \alpha \, T(S, R)$
 
 - \(S\): allocation of items to agents  
 - \(R\): routing paths in a graph  
